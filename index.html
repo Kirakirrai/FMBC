@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html>
+ <header>
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>First Missionary Baptist Church</title>
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </header>	
+
+<body>
+	  
+	   <section class="header">
+	         <nav>
+	         	<a href="index.html"><img src="images/logo.png" class="headerlogo"> </a>  
+	             <div class="nav-links" id="navlinks">
+	             	
+	             	<i class="fa fa-times" onclick="hideMenu()"></i>
+	             	 
+	             	 <ul>
+	             	 	<li><a href="">Home</a></li>
+	             	 	<li><a href="">About Us</a></li>
+	             	 	<li><a href="">Contact</a></li>
+	             	 </ul>
+
+	             </div> 
+	             <i class="fa fa-bars" onclick="showMenu()"></i>
+	         </nav>
+
+<div class="text-box">
+
+	<h1>First Missionary Baptist Church</h1>
+	<p>Our Baptist church is a welcoming community that celebrates faith,fosters spiritual growth, and actively spreads the <br>transformative message of love and hope through outreach.</p>
+    <a href="" class="hero-btn">Vist us to learn More</a>
+</div>	         
+	         
+
+	   </section>
+
+<!----course----->
+
+<section class="course">
+	<h1>Church Services</h1>
+    <p>Sundays 10am - 12pm</p>
+    <p>Wednesdays 7pm - 8pm </p>
+
+
+</section>
+
+
+<!-----Call to Action----->
+
+<section class="cta">
+
+	<h1>Join our vibrant church services<br> and fellowship – all are welcome!</h1>
+
+	<a href="" class="hero-btn">Contact Us</a>
+
+
+</section>
+
+
+<!-----------Footer------->
+<section class="footer">
+
+	<h4>Find Us On</h4>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-whatsapp"></i>
+		
+
+
+	</div>
+<div class="copyright">
+	<p>Copyright© 2023 First Missionary Baptist Church All rights reserved.</p>
+
+</div>
+
+</section>
+
+
+
+<!-----------JavaSccript for Toggle Menu------->
+<script>
+	
+	var navlinks = document.getElementById("navlinks");
+
+	function showMenu(){
+		navlinks.style.right = "0";
+
+	}
+
+	function hideMenu(){
+		navlinks.style.right = "-200px";
+
+
+
+	}
+
+</script>
+
+</body>
+
+
+
+ </html>
